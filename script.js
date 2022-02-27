@@ -13,7 +13,7 @@ function compute() {
   var year = new Date().getFullYear() + parseInt(years);
 
 
-  document.getElementById("result").innerHTML = 'If you deposit <mark class="highlight">$' + principal + '</mark>\<br\>at an interest rate of <mark class="highlight">' + rate + '%</mark>,\<br\>You will receive an amount of <mark class="highlight">$' + interest + '</mark>\<br\>in the year <mark class="highlight">' + year + '</mark>.';
+  document.getElementById("result").innerHTML = '\<br\>If you deposit <mark class="highlight">$' + principal + '</mark>\<br\>at an interest rate of <mark class="highlight">' + rate + '%</mark>,\<br\>You will receive an amount of <mark class="highlight">$' + interest + '</mark>\<br\>in the year <mark class="highlight">' + year + '</mark>.';
 
 }
 
