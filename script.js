@@ -22,4 +22,4 @@ function updateRate() {
   document.getElementById("rate_val").innerHTML = rateval + '%';
 }
 
-document.getElementById("rate").addEventListener("input", updateRate);
+document.getElementById("rate").addEventListener("change", updateRate);
